@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+header{
+    padding-bottom: 10px;
+    font-family: roboto;
+    font-size: medium;
+    width: 100%;
+    overflow: hidden;
+    display: inline;
+}
+li{
+    list-style: none;
+    padding: 15px;
+    text-decoration: none;
+}
+.logo{
+    text-align: center;
+}
+.search-bar{
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    width:100%;
+    max-width: 650px;
+    height: 40px;
+}
+.mainwrap{
+    padding: 5rem;
+}
+#header-links-left{
+    height:25px;
+    text-align: center;
+    display: inline-flex;
+    float: left;
+}
+#header-links-right{
+    height:25px;
+    text-align: center;
+    display: inline-flex;
+    float: right;
+}
+.search-buttons{
+    text-align: center;
+    padding: 10px;
+}
+.search-button{
+    height: 35px;
+    width: 150px;
+}
+.im-feeling-lucky{
+    height: 35px;
+    width: 150px;
+}
+.google-workspace{
+    color: blue;
+    text-decoration: none;
+    font-size: 0.75rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    font-size: 0.5rem;
+}
+footer a{
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+}
+@medio (max-height: 800px){
+    footer {position:static;}
+}
+.left-footer{
+    display: inline-flex;
+    float:left;
+}
+.mid-footer{
+    display: inline-flex;
+    align-self: center;
+}
+.right-footer{
+    display: inline-flex;
+    float:right;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <div id="header-links-left">
+            <li class="header-links-left"><a src="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">
+            About</a></li>
+
+            <li class="header-links-left"><a src="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">
+            Store</a></li>
+            </div>
+
+            <div id="header-links-right">
+            <li class="header-links-right"><a src="https://mail.google.com/mail/u/0/#inbox">
+            Gmail</a></li>
+
+            <li class="header-links-right"><a src="https://www.google.com/imghp?hl=en&ogbl">
+            Images</a></li>
+
+            <li class="header-links-right"><a class=".material-icons"
+                       src="asd"><span class="material-icons">
+            apps</span></a></li>
+            
+            <li class="header-links-right"><a class=".material-icons"
+                       src="asd"><span class="material-icons">
+            account_circle
+            </span></a></li>
+            </div>
+        </ul>
+    </header>
+    <main>
+        <div class="mainwrap">
+            <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+             alt="logo">
+            </div>
+
+             <input class="search-bar" 
+             type="text" 
+             placeholder="">
+            
+             <div class="search-buttons">
+             <button type="button" class="search-button">Google Search</button> 
+
+             <button type="button" class="im-feeling-lucky">I'm Feeling Lucky</button> 
+             </div>
+
+             <a href=""
+                class="google-workspace">Google Workspace is now available to everyone</a>
+        </div>
+    </main>
+    <footer>
+       
+        <ul>
+            <div class="left-footer">
+            <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000078-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/">Advertising</a></li>
+            <li><a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a></li>
+            <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+            </div>
+
+            <div class="mid-footer">
+                <li><a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon neutral since 2007</a></li>
+            </div>
+
+            <div class="right-footer">
+            <li><a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+            <li><a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
+            <li><a href="">Settings</a></li>
+            </div>
+        </ul>
+    </footer>
+</body>
